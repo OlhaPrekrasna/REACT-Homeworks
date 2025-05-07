@@ -9,10 +9,21 @@ const CityCard = ({ city }) => {
       borderRadius: '8px',
       padding: '20px',
       maxWidth: '600px',
-      margin: 'auto'
+      margin: 'auto',
+      background: '#80B86F'
     }}>
-      <h2>{city.name}</h2>
-      <img src={city.imageUrl} alt={city.name} style={{ width: '100%', borderRadius: '8px' }} />
+      <img
+        src={city.imageUrl}
+        alt={city.name}
+        style={{
+          width: '100%',
+          height: '300px',
+          objectFit: 'cover',
+          borderRadius: '8px'
+    }}
+      />
+
+      <h2 style={{ textAlign: 'center' }}>{city.name}</h2>
       <p style={{ marginTop: '10px' }}>{city.description}</p>
       <ul>
         {city.facts.map((fact, index) => (
