@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 106rem;
+  height: 30rem;
+  margin: auto;
+}
+
+.rectangle {
+  width: 100%;
+  max-width: 28rem;
+  height: 11rem;
+  border-radius: 4rem;
+  border: 0.2rem solid #1ed760;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #0c0417;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  max-width: 98px;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 4rem;
+  border: 0.2rem solid #1ed760;
+  background-color: #0c0417;
+  max-width: 28rem;
+  margin: 2rem auto;
+  height: 11rem;
+}
+
+.icon {
+  width: 98px;
+  height: 98px;
+  cursor: pointer;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon.active {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(72%) saturate(2486%)
+    hue-rotate(201deg) contrast(93%);
+  transform: translateY(-3px);
+}
+
+.icon:hover {
+  border: 1px solid #1181f1;
+  box-shadow: 0 0 0 1px #1181f1, inset 0 0 0 1px #1181f1;
+}
+
+.signInLink {
+  text-decoration: none;
+  color: #1ed760;
+  transition: border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.signInLink:hover,
+.signInLink:active,
+.signInLink:focus {
+  border-bottom: 2px solid #1181f1;
+}
