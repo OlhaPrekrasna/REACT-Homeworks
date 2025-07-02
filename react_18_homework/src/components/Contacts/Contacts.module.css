@@ -1,0 +1,98 @@
+.contactsSection {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 60px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .infoBlock {
+    flex: 1 1 60%;
+    padding: 20px;
+    max-width: 700px;
+  }
+  
+  .contactList {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .contactList li {
+    margin-bottom: 8px;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .contactForm input {
+    padding: 12px;
+    flex: 1 1 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .contactForm input:nth-child(3) {
+    flex: 1 1 100%;
+  }
+  
+  .buttonWrapper {
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .contactForm button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .contactForm button:hover {
+    background-color: #333;
+  }
+  
+  .socialBlock {
+    flex: 1 1 30%;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    max-width: 300px;
+    height: fit-content;
+    margin-top: 20px;
+  }
+  
+  .socialBlock p {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .socialLinks img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialLinks img:hover {
+    transform: scale(1.1);
+  }
+  
+  
